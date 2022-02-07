@@ -122,6 +122,11 @@ body {
     color: #ffffff;
 }
 
+@media (max-width: 767px) {
+    .custom-btn {
+        margin-top: 10px;
+  }
+
 /*===========================
     04.Section Home css 
 ===========================*/

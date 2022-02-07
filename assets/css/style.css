@@ -1665,7 +1665,7 @@ textarea:focus {
   padding-right: 50px;
 }
 
-/* .header-btn .main-btn.account-btn::after {
+.header-btn .main-btn.account-btn::after {
   content: '';
   position: absolute;
   display: block;
@@ -1680,15 +1680,19 @@ textarea:focus {
   transition: all 0.3s ease-out 0s;
   border-bottom: 2px solid #FF6B6B;
   border-right: 2px solid #FF6B6B;
-} */
+}
 
 @media (max-width: 767px) {
   .header-btn .main-btn.account-btn {
     padding: 10px 14px;
   }
+
+  .header-btn .main-btn.account-btn::after {
+    display: none;
+  }
 }
 
-.sticky .navbar-toggler .toggler-icon {
+.navbar-toggler .toggler-icon {
   background-color: #333F57;
 }
 
