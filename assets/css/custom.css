@@ -713,8 +713,11 @@ body {
   .offcanvas_main_menu li ul.sub-menu {
     padding-left: 20px;
   }
-/*===== 08.header_social here =====*/
-
+/*===== 08.icons here =====*/
+.icofont-rounded-down {
+    margin: 0px 10px;
+    font-size: 15px;    
+}
 /*===== 09.header_social here =====*/
 
 /*===== 10.header_social here =====*/
