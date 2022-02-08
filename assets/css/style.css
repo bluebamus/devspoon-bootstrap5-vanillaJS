@@ -1174,7 +1174,7 @@ textarea:focus {
 
 .sticky {
   position: fixed;
-  z-index: 999999;
+  z-index: 999;
   background-color: #fff;
   box-shadow: 0 5px 40px 0 rgba(10, 10, 25, 0.1);
   border-bottom: 0;
