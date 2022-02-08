@@ -34,6 +34,9 @@
 	<!--====== Bootstrap CSS ======-->
 	<link rel="stylesheet" href="assets/vendors/bootstrap/bootstrap-5.1.3.min.css">
 
+    <!--====== ionicframework CSS ======-->
+    <link rel="stylesheet" href="assets/vendors/icons/ionicons/ionicons-2.0.0.min.css">
+
 	<!--====== Style CSS ======-->
 	<link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/custom.css">
@@ -65,6 +68,91 @@
 
 	<!--====== PRELOADER PART ENDS ======-->
 
+     <!--offcanvas menu area start-->
+     <div class="body_overlay">
+
+    </div>
+    <div class="offcanvas_menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="offcanvas_menu_wrapper">
+                        <div class="canvas_close">
+                            <a href="javascript:void(0)"><i class="ion-android-close"></i></a>
+                        </div>
+                        <div class="header_contact_info">
+                            <ul class="d-flex">
+                                <li class="text-white"> <i class="icons icon-phone"></i> <a href="tel:+05483716566">+054
+                                        8371 65 66</a></li>
+                                <li class="text-white"> <i class="icon-envelope-letter icons"></i> <a
+                                        href="#">uthrstore@domain.com</a></li>
+                            </ul>
+                        </div>
+                        <div class="header_social d-flex">
+                            <span>Follow us</span>
+                            <ul class="d-flex">
+                                <li><a href="#"><i class="icon-social-twitter icons"></i></a></li>
+                                <li><a href="#"><i class="icon-social-facebook icons"></i></a></li>
+                                <li><a href="#"><i class="icon-social-instagram icons"></i></a></li>
+                                <li><a href="#"><i class="icon-social-youtube icons"></i></a></li>
+                                <li><a href="#"><i class="icon-social-pinterest icons"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="language_currency">
+                            <ul class="d-flex">
+                                <li class="language"><a href="#"> Eng <i class="icon-right ion-ios-arrow-down"></i></a>
+                                    <ul class="dropdown_language">
+                                        <li><a href="#">French</a></li>
+                                        <li><a href="#">Spanish</a></li>
+                                        <li><a href="#">Russian</a></li>
+                                    </ul>
+                                </li>
+                                <li class="currency"><a href="#"> USd <i class="icon-right ion-ios-arrow-down"></i></a>
+                                    <ul class="dropdown_currency">
+                                        <li><a href="#">€ Euro</a></li>
+                                        <li><a href="#">£ Pound Sterling</a></li>
+                                        <li><a href="#">$ US Dollar</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="menu" class="text-left ">
+                            <ul class="offcanvas_main_menu">
+                                <li class="menu-item-has-children active">
+                                    <a href="#">Home</a>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="shop.html">Shop</a>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="product-details.html"> Product Details</a>
+                                </li>
+                                <li><a href="#">sale</a></li>
+                                <li class="menu-item-has-children">
+                                    <a href="#">pages </a>
+                                    <ul class="sub-menu">
+                                        <li><a href="cart.html">cart</a></li>
+                                        <li><a href="checkout.html">Checkout</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="#">blog</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="blog.html">blog</a></li>
+                                        <li><a href="blog-details.html">blog details</a></li>
+                                    </ul>
+
+                                </li>
+                                <li><a href="#">buy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--offcanvas menu area end-->
+
 	<!--====== HEADER PART START ======-->
 
 	<header class="header_area">
@@ -76,12 +164,12 @@
 							<a class="navbar-brand" href="index.html">
 								<img id="logo" src="assets/images/logo/logo-2.svg" alt="Logo">
 							</a>
-							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+							<!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 								aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 								<span class="toggler-icon"></span>
 								<span class="toggler-icon"></span>
 								<span class="toggler-icon"></span>
-							</button>
+							</button>-->
 							<div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
 								<ul id="nav" class="navbar-nav">
 									<li class="nav-item">
@@ -124,28 +212,33 @@
 									</li>
 								</ul>
 							</div>
-							<ul class="header-btn d-md-flex">
-								<li>
-									<a href="#" onclick="return false;" class="main-btn account-btn">
-										<span class="d-md-none"><i class="lni lni-user"></i></span>
-										<span class="d-none d-md-block">My Account</span>
-									</a>
-									<ul class="dropdown-nav">
-										<li><a href="dashboard.html">Dashboard</a></li>
-										<li><a href="profile-settings.html">Profile Settings</a></li>
-										<li><a href="post-ad.html">Post Ad</a></li>
-										<li><a href="my-ads.html">My Ads</a></li>
-										<li><a href="offers.html">Offers/Messages</a></li>
-										<li><a href="payments.html">Payments</a></li>
-										<li><a href="favorites.html">Favorites</a></li>
-										<li><a href="privacy.html">Privacy</a></li>
-										<li><a href="javascript:void(0)">Sign Out</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="post-ad.html" class="main-btn btn-hover d-none d-md-block">Post An Ad</a>
-								</li>
-							</ul>
+                            <div class="mobile-manu row-vh d-flex flex-row justify-content-around">
+                                <ul class="header-btn d-md-flex">
+                                    <li>
+                                        <a href="#" onclick="return false;" class="main-btn account-btn">
+                                            <span class="d-md-none"><i class="lni lni-user"></i></span>
+                                            <span class="d-none d-md-block">My Account</span>
+                                        </a>
+                                        <ul class="dropdown-nav">
+                                            <li><a href="dashboard.html">Dashboard</a></li>
+                                            <li><a href="profile-settings.html">Profile Settings</a></li>
+                                            <li><a href="post-ad.html">Post Ad</a></li>
+                                            <li><a href="my-ads.html">My Ads</a></li>
+                                            <li><a href="offers.html">Offers/Messages</a></li>
+                                            <li><a href="payments.html">Payments</a></li>
+                                            <li><a href="favorites.html">Favorites</a></li>
+                                            <li><a href="privacy.html">Privacy</a></li>
+                                            <li><a href="javascript:void(0)">Sign Out</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="post-ad.html" class="main-btn btn-hover d-none d-md-block">Post An Ad</a>
+                                    </li>
+                                </ul>
+                                <div class="canvas_open">
+                                    <a href="javascript:void(0)"><i class="ion-navicon"></i></a>
+                                </div>
+                            </div>
 						</nav> <!-- navbar -->
 					</div>
 				</div> <!-- row -->

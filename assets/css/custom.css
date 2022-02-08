@@ -126,8 +126,212 @@ body {
     .custom-btn {
         margin-top: 10px;
   }
+}
 
 /*===========================
-    04.Section Home css 
+    04.body_overlay, offcanvas_menu css 
+===========================*/
+/*===== 01.body_overlay here =====*/
+
+.body_overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    cursor: progress;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+  }
+
+  .body_overlay.active {
+    opacity: 0.3;
+    visibility: visible;
+  }
+ 
+/*===== 02.offcanvas_menu here =====*/
+  .off_canvars_overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    cursor: crosshair;
+    background: #000000;
+    top: 0;
+  }
+
+  .off_canvars_overlay.active {
+    opacity: 0.5;
+    visibility: visible;
+  }
+  
+  .offcanvas_menu {
+    display: none;
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .offcanvas_menu {
+      display: block;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .offcanvas_menu {
+      display: block;
+    }
+  }
+  
+  .offcanvas_menu_wrapper {
+    width: 290px;
+    position: fixed;
+    background: #fff;
+    z-index: 999;
+    top: 0;
+    height: 100vh;
+    transition: .5s;
+    left: 0;
+    margin-left: -300px;
+    padding: 55px 15px 30px;
+    overflow-y: auto;
+  }
+
+  .offcanvas_menu_wrapper.active {
+    margin-left: 0;
+  }
+
+  .offcanvas_menu_wrapper .slinky-theme-default {
+    background: inherit;
+    min-height: 300px;
+    overflow-y: auto;
+  }
+
+  .offcanvas_menu_wrapper .header_contact_info {
+    display: block;
+  }
+
+  .offcanvas_menu_wrapper .header_social {
+    display: flex !important;
+  }
+
+  .offcanvas_menu_wrapper .language_currency {
+    display: block;
+  }
+  
+  .offcanvas_main_menu > li.menu-item-has-children.menu-open > span.menu-expand {
+    transform: rotate(180deg);
+  }
+
+  .offcanvas_main_menu > li ul li.menu-item-has-children.menu-open span.menu-expand {
+    transform: rotate(180deg);
+  }
+  
+  .offcanvas_main_menu li {
+    position: relative;
+  }
+
+  .offcanvas_main_menu li:last-child {
+    margin: 0;
+  }
+
+  .offcanvas_main_menu li span.menu-expand {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+  }
+
+  .offcanvas_main_menu li span.menu-expand:hover {
+    color: #6a7964;
+  }
+
+  .offcanvas_main_menu li a {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    display: block;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #ededed;
+  }
+
+  .offcanvas_main_menu li a:hover {
+    color: #6a7964;
+  }
+
+  .offcanvas_main_menu li ul.sub-menu {
+    padding-left: 20px;
+  }
+  
+  .canvas_close {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+  }
+
+  .canvas_close a {
+    font-size: 30px;
+    transition: 0.7s;
+    display: inline-block;
+    transform: scale(1) rotate(0deg);
+  }
+
+  .canvas_close a:hover {
+    color: #ffb83c;
+    transform: scale(1.3) rotate(180deg);
+  }
+
+  .canvas_close a:hover {
+    color: #6a7964;
+  }
+  
+  .canvas_open {
+    display: none;
+    padding: 0px 5px;
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .canvas_open {
+      display: inline;
+      right: 0;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .canvas_open {
+      display: inline;
+      right: 0;
+    }
+  }
+
+  .canvas_open a {
+    font-size: 50px;
+    display: block;
+    line-height: 16px;
+    position: relative;
+  }
+
+  .canvas_open a:hover {
+    color: #6a7964;
+  }
+
+/*===========================
+    05. css 
+===========================*/
+/*=====  =====*/
+
+/*===========================
+    06. css 
+===========================*/
+/*=====  =====*/
+
+/*===========================
+    07. css 
+===========================*/
+/*=====  =====*/
+
+/*===========================
+    08. css 
 ===========================*/
 /*=====  =====*/
