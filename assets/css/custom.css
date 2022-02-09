@@ -718,16 +718,24 @@ body {
     margin: 0px 10px;
     font-size: 15px;    
 }
-/*===== 09.header_social here =====*/
-
-/*===== 10.header_social here =====*/
-
-/*===== 11.header_social here =====*/
 
 /*===========================
-    05. css 
+    05. tiny css 
 ===========================*/
 /*=====  =====*/
+.portfolio-section-title h1 {
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 20px;
+  }
+
+.portfolio-section-title p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 60px;
+}
+
 
 /*===========================
     06. css 

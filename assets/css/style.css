@@ -2344,7 +2344,7 @@ hero area css
 .product-carousel-wrapper {
   position: relative;
 }
-
+/* 
 .product-carousel-wrapper .tns-controls button {
   border: none;
   background: none;
@@ -2392,7 +2392,7 @@ hero area css
     bottom: -30px;
     transform: translateY(0);
   }
-}
+} */
 
 .product-details-area {
   position: relative;
@@ -2872,7 +2872,7 @@ testimonial css
   line-height: 28px;
 }
 
-.testimonial-area .testimonial-wrapper .tns-nav {
+/* .testimonial-area .testimonial-wrapper .tns-nav {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -2894,7 +2894,7 @@ testimonial css
 .testimonial-area .testimonial-wrapper .tns-nav button.tns-nav-active {
   opacity: 1;
   transform: scale(1.25);
-}
+} */
 
 /*============================
 video css

@@ -70,4 +70,5 @@
         offcanvasMenuToggler.classList.remove("active");
         bodyOverlayToggler.classList.remove("active");
     })
+
 })();
