@@ -720,7 +720,7 @@ body {
 }
 
 /*===========================
-    05. tiny css 
+    05. portfolio tiny-slider css 
 ===========================*/
 /*=====  =====*/
 .portfolio-section-title h1 {
@@ -733,9 +733,118 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
+/* .portfolio-section-title .main-btn {
+    padding: 16px 38px;
+} */
+
+.product-carousel-wrapper {
+    position: relative;
+  }
+  
+  .product-carousel-wrapper .tns-controls button {
+    border: none;
+    background: none;
+  }
+  
+  .product-carousel-wrapper .tns-controls button span {
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color: #7C869A;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 28px);
+    left: -28px;
+    transform: translateY(-50%);
+    transition: all 0.3s ease-out 0s;
+    z-index: 99;
+    box-shadow: 0px 3px 35px rgba(218, 222, 228, 0.3);
+  }
+  
+  .product-carousel-wrapper .tns-controls button span:hover {
+    color: #fff;
+    background: #FF6B6B;
+  }
+  
+  .product-carousel-wrapper .tns-controls button span.next {
+    right: -28px;
+    left: auto;
+  }
+  
+  @media (max-width: 767px) {
+    .product-carousel-wrapper .tns-controls button span.next {
+      left: calc(50% + 10px);
+      right: auto;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .product-carousel-wrapper .tns-controls button span {
+      left: calc(50% - 65px);
+      top: auto;
+      bottom: -30px;
+      transform: translateY(0);
+    }
+  }
+
+  .single-product:hover {
+    box-shadow: 0px 12px 35px rgba(218, 222, 228, 0.65);
+  }
+  
+  .single-product .product-img {
+    position: relative;
+  }
+  
+  .single-product .product-img a {
+    display: block;
+  }
+  
+  .single-product .product-img img {
+    width: 100%;
+  }
+
+  .single-product .product-img a.badge {
+    font-size: 25px; /*16px; */
+    color: #fff;
+    background: #FF6B6B;
+    padding: 5px 16px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    font-weight: 400;
+    border-radius: 30px;
+  }
+  
+  .single-product .product-img a.badge.bottom {
+    bottom: 25px;
+    background: #42d4c6;
+    top: auto;
+    left: auto;
+    right: 20px;
+  }
+
+  @media (max-width: 767px) {
+    .single-product .product-img a.badge {
+        font-size: 18px; /*16px; */
+        top: 10px;
+        left: 20px;
+      }
+      
+      .single-product .product-img a.badge.bottom {
+        bottom: 10px;
+        background: #42d4c6;
+      }
+  }
+  
+  .product-carousel-wrapper .tns-outer .tns-controls span {
+    border: 1px solid;
+  }
 
 /*===========================
     06. css 
