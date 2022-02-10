@@ -720,7 +720,7 @@ body {
 }
 
 /*===========================
-    05. portfolio tiny-slider css 
+    05. portfolio section css 
 ===========================*/
 /*=====  =====*/
 .portfolio-section-title h1 {
@@ -823,7 +823,8 @@ body {
   
   .single-product .product-img a.badge.bottom {
     bottom: 25px;
-    background: #42d4c6;
+    /* background: #42d4c6; */
+    background: #ffc200;
     top: auto;
     left: auto;
     right: 20px;
@@ -838,7 +839,6 @@ body {
       
       .single-product .product-img a.badge.bottom {
         bottom: 10px;
-        background: #42d4c6;
       }
   }
   
@@ -847,10 +847,103 @@ body {
   }
 
 /*===========================
-    06. css 
+    06. skill section css 
 ===========================*/
 /*=====  =====*/
 
+/* .ftco-animate {
+    opacity: 0;
+    visibility: hidden; } */
+    
+.ftco-section {
+  /* padding: 7em 0; */
+  position: relative; }
+
+@media (max-width: 767.98px) {
+.ftco-section {
+    padding: 6em 0; } }
+
+.heading-section .subheading {
+    font-size: 13px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: black;
+    color: #b1b493;
+    letter-spacing: 3px; }
+
+.heading-section h2 {
+    font-size: 40px;
+    font-weight: 600; }
+    .heading-section h2 span {
+        font-weight: 400; }
+    @media (max-width: 767.98px) {
+        .heading-section h2 {
+        font-size: 28px; } }
+
+.media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start; }
+
+.media-body {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1; }
+
+.services {
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 60px; }
+
+.services .icon {
+    line-height: 1.3;
+    position: relative;
+    margin-top: -60px;
+    width: 80px;
+    height: 80px;
+    background: #b1b493;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+
+.services .icon span {
+    font-size: 40px;
+    color: #fff; }
+
+.services .media-body h3 {
+    font-size: 18px;
+    font-weight: 500; }
+
+.services:hover {
+    background: #b1b493 !important; }
+
+.services:hover .icon {
+    background: #fff;
+    margin-left: 20px; }
+
+.services:hover .icon span {
+    color: #b1b493; }
+
+.services:hover h3 {
+    color: #fff; }
+
+.services:hover .media-body {
+    color: rgba(255, 255, 255, 0.8); }
+  
 /*===========================
     07. css 
 ===========================*/

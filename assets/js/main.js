@@ -71,4 +71,48 @@
         bodyOverlayToggler.classList.remove("active");
     })
 
+    //========= glightbox
+		/*const myGallery = GLightbox({
+			'href': 'assets/video/Free App Landing Page Template - AppLand.mp4',
+			'type': 'video',
+			'source': 'youtube', //vimeo, youtube or local
+			'width': 900,
+			'autoplayVideos': true,
+		});*/
+
+    //======== tiny slider for feature-product-carousel
+        
+    tns({
+        slideBy: 'page',
+        autoplay: false,
+        mouseDrag: true,
+        gutter: 20,
+        nav: false,
+        controls: true,
+        controlsPosition: 'bottom',
+        controlsText: [
+            '<span class="prev"><i class="lni lni-chevron-left"></i></span>', 
+            '<span class="next"><i class="lni lni-chevron-right"></i></span>'
+        ],
+        container: ".feature-product-carousel",
+        items: 1,
+        center: false,
+        autoplayTimeout: 5000,
+        swipeAngle: false,
+        speed: 400,
+        responsive: {
+            768: {
+                items: 1,
+            },
+
+            992: {
+                items: 1,
+            },
+
+            1200: {
+                items: 1,
+            }
+        }
+    });
+    
 })();
