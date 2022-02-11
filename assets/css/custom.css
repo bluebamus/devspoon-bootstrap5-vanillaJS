@@ -724,8 +724,8 @@ body {
 ===========================*/
 /*=====  =====*/
 .portfolio-section-title h1 {
-    font-size: 45px;
-    line-height: 55px;
+    /* font-size: 45px;
+    line-height: 55px; */
     margin-bottom: 20px;
   }
 
@@ -735,10 +735,6 @@ body {
     line-height: 28px;
     margin-bottom: 30px;
 }
-
-/* .portfolio-section-title .main-btn {
-    padding: 16px 38px;
-} */
 
 .product-carousel-wrapper {
     position: relative;
@@ -781,6 +777,10 @@ body {
     .product-carousel-wrapper .tns-controls button span.next {
       left: calc(50% + 10px);
       right: auto;
+    }
+
+    .portfolio-section-title .main-btn {
+        padding: 13px 38px;
     }
   }
   
@@ -839,6 +839,7 @@ body {
       
       .single-product .product-img a.badge.bottom {
         bottom: 10px;
+        right: 15px;
       }
   }
   
@@ -855,12 +856,12 @@ body {
     opacity: 0;
     visibility: hidden; } */
     
-.ftco-section {
+.skills {
   /* padding: 7em 0; */
   position: relative; }
 
 @media (max-width: 767.98px) {
-.ftco-section {
+.skills {
     padding: 6em 0; } }
 
 .heading-section .subheading {
@@ -945,9 +946,197 @@ body {
     color: rgba(255, 255, 255, 0.8); }
   
 /*===========================
-    07. css 
+    07. blog section css 
 ===========================*/
 /*=====  =====*/
+
+
+.post-item {
+    border-radius: 5px;
+    margin-bottom: 30px;
+  }
+
+.post-item .thumb {
+position: relative;
+}
+
+
+
+  .post-item .thumb a {
+    display: block;
+    position: relative;
+  }
+  .post-item .thumb a:after {
+    background-color: rgba(255, 255, 255, 0.5);
+    bottom: 0;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  .post-item .thumb a:hover:after {
+    opacity: 1;
+  }
+  .post-item .thumb img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+  }
+  .post-item .thumb .icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    color: #fff;
+    font-size: 30px; 
+    height: 40px;
+    line-height: 46px;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    top: 10px;
+    width: 40px;
+  }
+
+  .post-item .content {
+    border: 1px solid #dedede;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    padding: 35px 39px 30px;
+    position: relative;
+    z-index: 1;
+  }
+  @media only screen and (max-width: 1199px) {
+    .post-item .content {
+      padding: 25px 15px;
+    }
+  }
+  @media only screen and (max-width: 1199px) {
+    .post-item .content {
+      padding: 30px 20px;
+    }
+  }
+  .post-item .content:before {
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+  }
+  .post-item .content .title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 0;
+    letter-spacing: -0.25px;
+    line-height: 30px;
+  }
+  @media only screen and (max-width: 1199px) {
+    .post-item .content .title {
+      font-size: 18px;
+    }
+  }
+  .post-item .content .title a {
+    color: #000;
+    border-bottom: 1px solid transparent;
+  }
+  .post-item .content .title a:hover {
+    color: #eb4435;
+    border-bottom-color: #eb4435;
+  }
+  .post-item .content p {
+    color: #666;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    margin: 10px 0 10px;
+  }
+  .post-item .content .meta {
+    color: #999999;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .post-item .content .meta ion-icon {
+      font-size: 20px; 
+      margin-bottom: -5px;
+  }
+
+  .post-item .content .meta a {
+    color: #999999;
+  }
+  .post-item .content .meta .author {
+    color: #eb4435;
+    font-weight: 500;
+    margin-left: 4px;
+    margin-right: 23px;
+    position: relative;
+  }
+  .post-item .content .meta .author:after {
+    background-color: #0e0e0e;
+    content: "";
+    height: 2px;
+    position: absolute;
+    right: -15px;
+    top: 39%;
+    width: 3px;
+  }
+  .post-item .content .meta .category {
+    color: #999999;
+    font-weight: 400;
+    margin-right: 21px;
+    margin-left: 2px;
+  }
+  @media only screen and (max-width: 1199px) {
+    .post-item .content .meta .category {
+      margin-right: 15px;
+    }
+  }
+
+  .post-item .content .meta .category span {
+    color: #eb4435;
+    margin-left: 5px;
+  }
+
+  .post-item .content .meta .post-date {
+    color: #999999;
+    font-weight: 400;
+    margin-right: 21px;
+    margin-left: 2px;
+  }
+
+  .post-item .content .meta.bottom {
+    border-top: 1px solid #f0f1f3;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -8px;
+    margin-top: 27px;
+    padding-top: 27px;
+  }
+
+  .post-item .content .meta.bottom .icon-share  {
+    color: #999999;
+    font-weight: 400;
+    margin-right: 21px;
+    margin-left: 2px;
+  }
+
+  .post-item .content .meta.meta-bottom {
+    margin-top: 37px;
+    padding-top: 18px;
+    
+  }
+
+  @media only screen and (max-width: 1199px) {
+    .post-item .content .meta.meta-bottom {
+      margin-top: 30px;
+    }
+  }
+  
+
 
 /*===========================
     08. css 
