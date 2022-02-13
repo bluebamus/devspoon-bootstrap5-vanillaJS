@@ -2217,28 +2217,31 @@ hero area css
 
 .card-box .card-content .update {
   font-weight: 300;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .card-box .card-content .sort-des {
   margin-bottom: 20px;
 }
 
-.card-box .card-content .address {
+.card-box .card-content .project-info {
+  border-top: 1px dotted rgba(124, 134, 154, 0.25);
   display: flex;
   flex-wrap: wrap;
+  padding-top: 20px;
+  text-align: center;
 }
 
-.card-box .card-content .address li {
+.card-box .card-content .project-info li {
   width: 50%;
   margin-bottom: 15px;
 }
 
-.card-box .card-content .address li a {
+.card-box .card-content .project-info li a {
   color: #7C869A;
 }
 
-.card-box .card-content .address li a:hover {
+.card-box .card-content .project-info li a:hover {
   color: #FF6B6B;
 }
 
@@ -2344,7 +2347,7 @@ hero area css
 .product-carousel-wrapper {
   position: relative;
 }
-/* 
+
 .product-carousel-wrapper .tns-controls button {
   border: none;
   background: none;
@@ -2392,7 +2395,7 @@ hero area css
     bottom: -30px;
     transform: translateY(0);
   }
-} */
+}
 
 .product-details-area {
   position: relative;

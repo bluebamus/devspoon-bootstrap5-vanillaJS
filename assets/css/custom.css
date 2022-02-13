@@ -793,23 +793,23 @@ body {
     }
   }
 
-  .single-product:hover {
+  .card-box:hover {
     box-shadow: 0px 12px 35px rgba(218, 222, 228, 0.65);
   }
   
-  .single-product .product-img {
+  .card-box .card-img {
     position: relative;
   }
   
-  .single-product .product-img a {
+  .card-box .card-img a {
     display: block;
   }
   
-  .single-product .product-img img {
+  .card-box .card-img img {
     width: 100%;
   }
 
-  .single-product .product-img a.badge {
+  .card-box .card-img a.badge {
     font-size: 25px; /*16px; */
     color: #fff;
     background: #FF6B6B;
@@ -821,7 +821,7 @@ body {
     border-radius: 30px;
   }
   
-  .single-product .product-img a.badge.bottom {
+  .card-box .card-img a.badge.bottom {
     bottom: 25px;
     /* background: #42d4c6; */
     background: #ffc200;
@@ -831,13 +831,13 @@ body {
   }
 
   @media (max-width: 767px) {
-    .single-product .product-img a.badge {
+    .card-box .card-img a.badge {
         font-size: 18px; /*16px; */
         top: 10px;
         left: 20px;
       }
       
-      .single-product .product-img a.badge.bottom {
+      .card-box .card-img a.badge.bottom {
         bottom: 10px;
         right: 15px;
       }
@@ -912,7 +912,8 @@ body {
     margin-top: -60px;
     width: 80px;
     height: 80px;
-    background: #b1b493;
+    /* background: #b1b493; */
+    background: #01054B;
     border-radius: 50%;
     margin-bottom: 15px;
     -moz-transition: all 0.3s ease;
@@ -929,17 +930,31 @@ body {
     font-size: 18px;
     font-weight: 500; }
 
+.services .media-body p {
+    color: #333F57; 
+    }
+    
+
 .services:hover {
-    background: #b1b493 !important; }
+    /* background: #b1b493 !important;  */
+    background: #01054B !important; 
+
+}
 
 .services:hover .icon {
     background: #fff;
     margin-left: 20px; }
 
 .services:hover .icon span {
-    color: #b1b493; }
+    /* color: #b1b493;  */
+    color: #01054B; 
+
+}
 
 .services:hover h3 {
+    color: #fff; }
+
+.services:hover p {
     color: #fff; }
 
 .services:hover .media-body {
