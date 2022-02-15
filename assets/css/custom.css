@@ -1364,30 +1364,119 @@ section.not-found {
   }
 
 /*===========================
-    09.  section css 
+    10. Login, Forget, Register section css 
+===========================*/
+/*===== Common =====*/
+
+section.first {
+    padding: 80px 0px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+.box-wrapper {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .box {
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+  }
+  .box.box-border {
+    box-shadow: none;
+    border: 1px solid #f2f2f2;
+  }
+  .box .box-body {
+    padding: 30px;
+  }
+  .box .box-body h4 {
+    margin-bottom: 30px;
+  }
+
+  .title-line {
+    display: table;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    white-space: nowrap;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #ddd;
+  }
+  .title-line:before, .title-line:after {
+    border-top: 2px dashed #eee;
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 0.5em;
+    width: 45%;
+  }
+  .title-line:before {
+    right: 1.5%;
+  }
+  .title-line:after {
+    left: 1.5%;
+  }
+
+section.first button.btn {
+    font-weight: 400;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #FF6B6B;
+    border-color: #FF6B6B;
+}
+  
+/*===== Login =====*/
+
+.btn-social {
+    font-weight: 400;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;    
+  }
+  .btn-social:hover {
+    color: #fff;
+    opacity: .8;
+  }
+  
+.box-body a.facebook {
+    background-color: #3b5998;
+    color: #fff !important;
+  }
+
+/*===== Forget =====*/
+
+/*===== Register =====*/
+
+
+
+/*===========================
+    11.  section css 
 ===========================*/
 /*=====  =====*/
 
 
 /*===========================
-    09.  section css 
+    12.  section css 
 ===========================*/
 /*=====  =====*/
 
 
 /*===========================
-    09.  section css 
+    13.  section css 
 ===========================*/
 /*=====  =====*/
 
 
 /*===========================
-    09.  section css 
-===========================*/
-/*=====  =====*/
-
-
-/*===========================
-    09.  section css 
+    14.  section css 
 ===========================*/
 /*=====  =====*/
