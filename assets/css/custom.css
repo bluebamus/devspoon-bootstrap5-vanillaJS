@@ -871,7 +871,8 @@ body {
     margin-bottom: 5px;
     text-transform: uppercase;
     color: black;
-    color: #b1b493;
+    /* color: #b1b493; */
+    color: #01054B;
     letter-spacing: 3px; }
 
 .heading-section h2 {
@@ -1154,6 +1155,160 @@ position: relative;
 
 
 /*===========================
-    08. css 
+    08. Analyze section css 
 ===========================*/
 /*=====  =====*/
+
+.analyze-area .section-title {
+    margin-bottom: 80px;
+  }
+  @media only screen and (max-width: 1199px) {
+    .analyze-area .section-title {
+      margin-bottom: 70px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .analyze-area .section-title {
+      margin-bottom: 50px;
+    }
+  }
+
+  .icon-box-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .icon-box-list:last-child .icon-box-item {
+    border-bottom: none;
+  }
+
+  .icon-box-style1 .icon-box-item {
+    background-color: #fff;
+    border-bottom: 1px solid #ececec;
+    border-right: 1px solid #ececec;
+    overflow: hidden;
+    padding: 54px 55px 56px 50px;
+    position: relative;
+    width: 33.333333%;
+    z-index: 1;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+  }
+  @media only screen and (max-width: 1199px) {
+    .icon-box-style1 .icon-box-item {
+      padding: 44px 35px 46px 30px;
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    .icon-box-style1 .icon-box-item {
+      width: 100%;
+      border-right: none;
+    }
+  }
+  .icon-box-style1 .icon-box-item:last-child {
+    border-right: none;
+  }
+  .icon-box-style1 .icon-box-item:after {
+    bottom: 0;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    top: auto;
+    width: 100%;
+    z-index: -1;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+  }
+  .icon-box-style1 .icon-box-item .icon-box {
+    margin-bottom: 37px;
+    position: relative;
+  }
+  .icon-box-style1 .icon-box-item .icon-box .icon {
+    color: #eb4435;
+    font-size: 60px;
+    line-height: 1;
+  }
+  .icon-box-style1 .icon-box-item .icon-box .icon-img {
+    width: 70px;    
+    color: #eb4435;
+    font-size: 60px;
+    transition: 0.1s;
+    -webkit-transition: 0.1s;
+    -moz-transition: 0.1s;
+    -ms-transition: 0.1s;
+    -o-transition: 0.1s;
+  }
+  .icon-box-style1 .icon-box-item .content h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+  }
+  @media only screen and (max-width: 1199px) {
+    .icon-box-style1 .icon-box-item .content h4 {
+      font-size: 18px;
+    }
+  }
+  .icon-box-style1 .icon-box-item .content h4 a {
+    color: #0e0e0e;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+  }
+  .icon-box-style1 .icon-box-item .content h4 a:hover {
+    color: #eb4435;
+  }
+  .icon-box-style1 .icon-box-item .content p {
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+  }
+  .icon-box-style1 .icon-box-item .content .btn-theme {
+    margin-top: 10px;
+  }
+  .icon-box-style1 .icon-box-item .icon-box-number {
+    color: #0e0e0e;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    position: absolute;
+    right: 58px;
+    top: 33px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+  }
+  .icon-box-style1 .icon-box-item:hover:after {
+    background-color: #eb4435;
+    bottom: auto;
+    height: 100%;
+    top: 0;
+  }
+  .icon-box-style1 .icon-box-item:hover .icon-box .icon-img {
+    filter: invert(1) brightness(100);
+  }
+  .icon-box-style1 .icon-box-item:hover .content h4 a {
+    color: #fff;
+  }
+  .icon-box-style1 .icon-box-item:hover .content p {
+    color: #fff;
+  }
+  .icon-box-style1 .icon-box-item:hover .icon-box-number {
+    color: #fff;
+  }

@@ -48,6 +48,7 @@
     });
     wow.init();
 
+
     /*---canvas menu activation---*/
 
     const canvasToggler = document.querySelector(".canvas_open");
@@ -115,37 +116,42 @@
     });
 
     //======== tiny slider for analyze-product-carousel
-		tns({
-			slideBy: 'page',
-			autoplay: false,
-			mouseDrag: true,
-			gutter: 20,
-			nav: false,
-			controls: true,
-			controlsPosition: 'bottom',
-			controlsText: [
-				'<span class="prev"><i class="lni lni-chevron-left"></i></span>', 
-				'<span class="next"><i class="lni lni-chevron-right"></i></span>'
-			],
-			container: ".analyze-product-carousel",
-			items: 1,
-			center: false,
-			autoplayTimeout: 5000,
-			swipeAngle: false,
-			speed: 400,
-			responsive: {
-				768: {
-					items: 2,
-				},
+		// tns({
+		// 	slideBy: 'page',
+		// 	autoplay: false,
+		// 	mouseDrag: true,
+		// 	gutter: 20,
+		// 	nav: false,
+		// 	controls: true,
+		// 	controlsPosition: 'bottom',
+		// 	controlsText: [
+		// 		'<span class="prev"><i class="lni lni-chevron-left"></i></span>', 
+		// 		'<span class="next"><i class="lni lni-chevron-right"></i></span>'
+		// 	],
+		// 	container: ".analyze-product-carousel",
+		// 	items: 1,
+		// 	center: false,
+		// 	autoplayTimeout: 5000,
+		// 	swipeAngle: false,
+		// 	speed: 400,
+		// 	responsive: {
+		// 		768: {
+		// 			items: 2,
+		// 		},
 
-				992: {
-					items: 2,
-				},
+		// 		992: {
+		// 			items: 2,
+		// 		},
 
-				1200: {
-					items: 3,
-				}
-			}
-		});
+		// 		1200: {
+		// 			items: 3,
+		// 		}
+		// 	}
+		// });       
+
+    //AOS Scroll 
+    AOS.init({
+        once: true,
+    });
     
 })();
