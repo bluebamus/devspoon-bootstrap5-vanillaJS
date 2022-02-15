@@ -309,10 +309,11 @@ body {
   }
 
   .canvas_open a {
-    font-size: 50px;
+    font-size: 38px;
     display: block;
     line-height: 16px;
     position: relative;
+    margin-top: 5px;
   }
 
   .canvas_open a:hover {
@@ -1312,3 +1313,81 @@ position: relative;
   .icon-box-style1 .icon-box-item:hover .icon-box-number {
     color: #fff;
   }
+
+  
+/*===========================
+    09. Not-found section css 
+===========================*/
+/*=====  =====*/
+section.not-found {
+    padding: 50px 0;
+    text-align: center;
+  }
+  section.not-found .code {
+    font-size: 12em;
+    color: #191E21;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+  }
+  section.not-found .code:after, section.not-found .code:before {
+    position: absolute;
+    right: -100px;
+    top: 20px;
+    width: 100px;
+    height: 2px;
+    background-color: #f2f2f2;
+    transform: rotate(-30deg);
+    content: ' ';
+  }
+  section.not-found .code:after {
+    bottom: 50px;
+    top: initial;
+    left: -120px;
+    right: initial;
+    transform: rotate(-30deg);
+  }
+  section.not-found h1 {
+    font-size: 24px;
+    line-height: 44px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+  }
+  section.not-found p.lead {
+    font-size: 16px;
+    color: #999;
+  }
+  section.not-found .link {
+    padding: 2px 0;
+  }
+
+/*===========================
+    09.  section css 
+===========================*/
+/*=====  =====*/
+
+
+/*===========================
+    09.  section css 
+===========================*/
+/*=====  =====*/
+
+
+/*===========================
+    09.  section css 
+===========================*/
+/*=====  =====*/
+
+
+/*===========================
+    09.  section css 
+===========================*/
+/*=====  =====*/
+
+
+/*===========================
+    09.  section css 
+===========================*/
+/*=====  =====*/

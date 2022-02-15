@@ -1646,7 +1646,7 @@ textarea:focus {
 
 @media (max-width: 767px) {
   .header-btn {
-    margin-right: 5px;
+    margin-right: 3px;
   }
 }
 
