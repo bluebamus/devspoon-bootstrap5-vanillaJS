@@ -16,6 +16,12 @@ body {
     margin-top: 50px;
 }
 
+.main-btn.login {
+    color: #FF6B6B;
+    background: white;
+    border: 1px solid #FF6B6B;
+}
+
 /*===========================
     03.Section Home css 
 ===========================*/
@@ -963,7 +969,7 @@ body {
     color: rgba(255, 255, 255, 0.8); }
   
 /*===========================
-    07. blog section css 
+    07. Main blog section css 
 ===========================*/
 /*=====  =====*/
 
@@ -1452,22 +1458,174 @@ section.first button.btn {
     color: #fff !important;
   }
 
-/*===== Forget =====*/
-
-/*===== Register =====*/
-
-
-
 /*===========================
-    11.  section css 
+    11. User Edit section css 
 ===========================*/
 /*=====  =====*/
+.e-profile .mx-auto
+{
+    width: 140px;
+}
 
+.mx-auto .thumbnail {
+    height: 140px; 
+    background-color: rgb(233, 236, 239);
+}
+
+.mx-auto .thumbnail-size {
+    color: rgb(166, 168, 170); 
+    font: bold 8pt Arial;
+}
 
 /*===========================
-    12.  section css 
+    12. blog page css 
 ===========================*/
-/*=====  =====*/
+/*===== common =====*/
+
+.page-title-area .page-title-content {
+    letter-spacing: 0;
+    padding: 112px 0;
+  }
+  @media only screen and (max-width: 1199px) {
+    .page-title-area .page-title-content {
+      padding: 65px 0;
+    }
+  }
+  .page-title-area .page-title-content .title {
+    color: #0e0e0e;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -0.77px;
+    line-height: 1.1;
+    margin-bottom: 29px;
+    text-transform: uppercase;
+  }
+  @media only screen and (max-width: 1199px) {
+    .page-title-area .page-title-content .title {
+      font-size: 36px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .page-title-area .page-title-content .title {
+      font-size: 30px;
+    }
+  }
+  @media only screen and (max-width: 575px) {
+    .page-title-area .page-title-content .title {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  }
+  .page-title-area .page-title-content .title span {
+    font-weight: 400;
+  }
+  .page-title-area .page-title-content .bread-crumbs {
+    color: #999999;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    margin-bottom: 2px;
+  }
+  .page-title-area .page-title-content .bread-crumbs a {
+    color: #999999;
+  }
+  .page-title-area .page-title-content .bread-crumbs a:hover {
+    color: #000;
+  }
+  .page-title-area .page-title-content .bread-crumbs span.active {
+    color: #000;
+  }
+  .page-title-area .page-title-content .bread-crumbs .breadcrumb-sep {
+    padding: 0 2.79px;
+  }
+
+/* .blog-grid-area .post-item {
+    margin-bottom: 69px;
+} */
+
+/* @media only screen and (max-width: 1199px) {
+    .blog-grid-area .post-item .content {
+        padding: 30px 15px;
+    }
+} */
+  
+/*-------- Pagination Style Css --------*/
+.pagination-area {
+    padding:48px 0 0;
+  }
+  /* @media only screen and (max-width: 991px) {
+    .pagination-area {
+      padding: 62px 0 0;
+    }
+  } */
+  @media only screen and (max-width: 767px) {
+    .pagination-area {
+        padding: 20px 0 0;
+      } 
+  }
+
+  .pagination-area nav .page-numbers {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    display: inline-flex;
+    margin-bottom: 0;
+  }
+  .pagination-area nav .page-numbers li {
+    line-height: 1;
+    margin-right: 41px;
+    padding: 0;
+  }
+  .pagination-area nav .page-numbers li .page-number {
+    color: #999999;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1;
+  }
+  .pagination-area nav .page-numbers li .page-number:hover {
+    color: #eb4435;
+  }
+  .pagination-area nav .page-numbers li .page-number.current {
+    color: #eb4435;
+    font-weight: 700;
+  }
+  .pagination-area nav .page-numbers li .page-number.prev {
+    border-radius: 0;
+    color: #999999;
+    font-size: 22px;
+  }
+  .pagination-area nav .page-numbers li .page-number.prev:hover {
+    color: #eb4435;
+  }
+  .pagination-area nav .page-numbers li .page-number.next {
+    color: #999999;
+    font-size: 22px;
+  }
+  .pagination-area nav .page-numbers li .page-number.next:hover {
+    color: #eb4435;
+  }
+  .pagination-area nav .page-numbers li:first-child {
+    padding-left: 0;
+  }
+  .pagination-area nav .page-numbers li:last-child {
+    padding-right: 0;
+    margin-right: 0;
+  }
+  .pagination-area nav .page-numbers.page-numbers-style {
+    box-shadow: 0px 10px 50px 0px rgba(171, 181, 189, 0.35);
+  }
+
+/*===== books =====*/
+
+
+/*===== online study =====*/
+
+
+/*===== interesting open source =====*/
+
+
+/*===== project =====*/
 
 
 /*===========================
