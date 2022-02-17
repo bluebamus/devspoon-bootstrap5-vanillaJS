@@ -18,6 +18,7 @@ body {
 
 .main-btn.login {
     color: #FF6B6B;
+    /* color: #eb4435; */
     background: white;
     border: 1px solid #FF6B6B;
 }
@@ -1025,11 +1026,11 @@ position: relative;
     border: 1px solid #dedede;
     border-top: none;
     border-radius: 0 0 5px 5px;
-    padding: 35px 39px 30px;
+    /* padding: 35px 39px 30px; */
     position: relative;
     z-index: 1;
   }
-  @media only screen and (max-width: 1199px) {
+  /* @media only screen and (max-width: 1199px) {
     .post-item .content {
       padding: 25px 15px;
     }
@@ -1038,7 +1039,7 @@ position: relative;
     .post-item .content {
       padding: 30px 20px;
     }
-  }
+  } */
   .post-item .content:before {
     background-color: #fff;
     border-radius: 0 0 5px 5px;
@@ -1051,48 +1052,49 @@ position: relative;
     z-index: -1;
   }
   .post-item .content .title {
-    font-size: 22px;
+    /* font-size: 22px; */
     font-weight: 600;
     margin-bottom: 0;
     letter-spacing: -0.25px;
     line-height: 30px;
   }
-  @media only screen and (max-width: 1199px) {
+  /* @media only screen and (max-width: 1199px) {
     .post-item .content .title {
       font-size: 18px;
     }
-  }
+  } */
   .post-item .content .title a {
     color: #000;
     border-bottom: 1px solid transparent;
   }
   .post-item .content .title a:hover {
-    color: #eb4435;
-    border-bottom-color: #eb4435;
+    color: #FF6B6B;
+    border-bottom-color: #FF6B6B;
   }
   .post-item .content p {
-    color: #666;
+    /* color: #666; */
     font-family: "Poppins", sans-serif;
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: normal;
     line-height: 26px;
     margin: 10px 0 10px;
   }
   .post-item .content .meta {
     color: #999999;
-    font-size: 14px;
-    margin-bottom: 10px;
+    margin-bottom: 10px;    
   }
 
   .post-item .content .meta ion-icon {
       font-size: 20px; 
       margin-bottom: -5px;
+      color: #FF6B6B;
   }
 
   .post-item .content .meta a {
     color: #999999;
   }
   .post-item .content .meta .author {
-    color: #eb4435;
+    color: #FF6B6B;
     font-weight: 500;
     margin-left: 4px;
     margin-right: 23px;
@@ -1110,25 +1112,42 @@ position: relative;
   .post-item .content .meta .category {
     color: #999999;
     font-weight: 400;
-    margin-right: 21px;
-    margin-left: 2px;
+    margin-right: 10px;
+    /* margin-left: 2px; */
   }
-  @media only screen and (max-width: 1199px) {
-    .post-item .content .meta .category {
-      margin-right: 15px;
-    }
+  .post-item .content .meta .tags {
+    color: #999999;
+    font-weight: 400;
+    margin-right: 10px;
+    /* margin-left: 2px; */
+  }
+  .post-item .content .meta .reply {
+    color: #999999;
+    font-weight: 400;
+    margin-right: 10px;
+    /* margin-left: 2px; */
   }
 
+  @media only screen and (max-width: 1199px) {
+    .post-item .content .meta .category {
+      margin-right: 10px;
+    }
+    .post-item .content .meta .tags {
+        margin-right: 10px;
+      }
+  }
+  
+
   .post-item .content .meta .category span {
-    color: #eb4435;
+    color: #FF6B6B;
     margin-left: 5px;
   }
 
   .post-item .content .meta .post-date {
     color: #999999;
     font-weight: 400;
-    margin-right: 21px;
-    margin-left: 2px;
+    margin-right: 10px;
+    /* margin-left: 2px; */
   }
 
   .post-item .content .meta.bottom {
@@ -1148,14 +1167,14 @@ position: relative;
   }
 
   .post-item .content .meta.meta-bottom {
-    margin-top: 37px;
+    margin: 37px 0px 10px;
     padding-top: 18px;
     
   }
 
   @media only screen and (max-width: 1199px) {
     .post-item .content .meta.meta-bottom {
-      margin-top: 30px;
+      margin: 30px 0px 10px;
     }
   }
   
@@ -1237,13 +1256,13 @@ position: relative;
     position: relative;
   }
   .icon-box-style1 .icon-box-item .icon-box .icon {
-    color: #eb4435;
+    color: #FF6B6B;
     font-size: 60px;
     line-height: 1;
   }
   .icon-box-style1 .icon-box-item .icon-box .icon-img {
     width: 70px;    
-    color: #eb4435;
+    color: #FF6B6B;
     font-size: 60px;
     transition: 0.1s;
     -webkit-transition: 0.1s;
@@ -1275,7 +1294,7 @@ position: relative;
     -o-transition: 0.4s;
   }
   .icon-box-style1 .icon-box-item .content h4 a:hover {
-    color: #eb4435;
+    color: #FF6B6B;
   }
   .icon-box-style1 .icon-box-item .content p {
     transition: 0.4s;
@@ -1302,7 +1321,7 @@ position: relative;
     -o-transition: 0.4s;
   }
   .icon-box-style1 .icon-box-item:hover:after {
-    background-color: #eb4435;
+    background-color: #FF6B6B;
     bottom: auto;
     height: 100%;
     top: 0;
@@ -1552,11 +1571,7 @@ section.first button.btn {
 .pagination-area {
     padding:48px 0 0;
   }
-  /* @media only screen and (max-width: 991px) {
-    .pagination-area {
-      padding: 62px 0 0;
-    }
-  } */
+
   @media only screen and (max-width: 767px) {
     .pagination-area {
         padding: 20px 0 0;
@@ -1584,10 +1599,10 @@ section.first button.btn {
     line-height: 1;
   }
   .pagination-area nav .page-numbers li .page-number:hover {
-    color: #eb4435;
+    color: #FF6B6B;
   }
   .pagination-area nav .page-numbers li .page-number.current {
-    color: #eb4435;
+    color: #FF6B6B;
     font-weight: 700;
   }
   .pagination-area nav .page-numbers li .page-number.prev {
@@ -1596,14 +1611,14 @@ section.first button.btn {
     font-size: 22px;
   }
   .pagination-area nav .page-numbers li .page-number.prev:hover {
-    color: #eb4435;
+    color: #FF6B6B;
   }
   .pagination-area nav .page-numbers li .page-number.next {
     color: #999999;
     font-size: 22px;
   }
   .pagination-area nav .page-numbers li .page-number.next:hover {
-    color: #eb4435;
+    color: #FF6B6B;
   }
   .pagination-area nav .page-numbers li:first-child {
     padding-left: 0;

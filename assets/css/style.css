@@ -2205,7 +2205,7 @@ hero area css
 }
 
 .card-box .card-content {
-  padding: 20px 30px 25px;
+  padding: 20px 30px 10px;
 }
 
 .card-box .card-content .name {
@@ -2229,14 +2229,19 @@ hero area css
   border-top: 1px dotted rgba(124, 134, 154, 0.25);
   display: flex;
   flex-wrap: wrap;
-  padding-top: 20px;
-  text-align: center;
+  padding-top: 20px;  
+  text-align: center;  
 }
 
 .card-box .card-content .project-info li {
   width: 50%;
-  margin-bottom: 15px;
+  margin-bottom: 15px;  
 }
+
+.card-box .card-content .project-info li i {
+    font-size: 20px;
+    color: #FF6B6B;
+  }
 
 .card-box .card-content .project-info li a {
   color: #7C869A;
